@@ -13,9 +13,9 @@ driver.implicitly_wait(10)
 driver.maximize_window()
 time.sleep(4)
 
-driver.find_element(By.XPATH,'//*[@id="UserName"]').send_keys("22030016")
+driver.find_element(By.XPATH,'//*[@id="UserName"]').send_keys("22****6")
 time.sleep(6)
-driver.find_element(By.XPATH,'//*[@id="Password"]').send_keys("dhiman12345")
+driver.find_element(By.XPATH,'//*[@id="Password"]').send_keys("******")
 time.sleep(10)
 
 # Login button
@@ -58,3 +58,4 @@ time.sleep(4)
 # click on view
 driver.find_element(By.XPATH,'//*[@id="btnMonthRegister"]').click()
 time.sleep(6)
+
